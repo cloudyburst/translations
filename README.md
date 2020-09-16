@@ -12,7 +12,7 @@ Poeditor is a web app, used to localize your project. As luck would have it, we 
 - Go to https://poeditor.com/join/project?hash=VUM7k5Pxxx
 - Select the language of your choice, and then start translating!
 
-> If you don't see your language in the project menu, please contact us on [our support server](ritim.xyz/discord) so we could add support for it!
+> If you don't see your language in the project menu, please contact us on [our support server](ritim.xyz/discord) so we could add support for a language of your choice!
 
 ### 💻 Pull requesting by yourself
 #### File structure (if you're going to change the file by yourself)
