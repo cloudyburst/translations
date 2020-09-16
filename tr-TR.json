@@ -1,0 +1,136 @@
+{
+    "TRANSLATION": {
+        "CODE": "tr-TR",
+        "NAME": "Türkçe",
+        "AUTHOR": "Ritim Geliştiricileri"
+    },
+    "STRINGS": {
+        "COMMANDS": {
+            "SEARCH": {
+                "NAME": "ara",
+                "DESCRIPTION": "parça aratıyoz",
+
+                "NO_ARGUMENTS": "botun arama yapması için bir kelime / kelime dizisi girmeniz gerekiyor.",
+                "RESULTS": "Sonuçlar:",
+                "SEARCH_QUERY": "Yapılan Sorgu: {QUERY}"
+            },
+            "INFO": {
+                "NAME": "bilgi",
+                "DESCRIPTION": "Bot hakkında bilgi verir.",
+
+                "VERSION": "Versiyon",
+                "LIBRARY": "Kütüphane",
+                "DEVELOPERS": "Geliştiriciler",
+                "PING": "Gecikme",
+                "USERS": "Kullanıcılar",
+                "SERVERS": "Sunucular",
+                "WEBSITE": "Website",
+                "INVITE_LINK": "Davet",
+                "DISCORD_SERVER": "Discord",
+                
+                "UNITED_STATES": "",
+                "UPTIME_STRING": "Uptime {HOURS} sa, {MINUTES} dk, {SECONDS} sn"
+            },
+            "LEAVE": {
+                "NAME": "ayrıl",
+                "DESCRIPTION": "Bot kanaldan ayrılır.",
+
+                "LIST_HAS_SONGS": "listede parçalar var, --kapat komutunu deneyin.",
+            },
+            "RESUME": {
+                "NAME": "devam",
+                "DESCRIPTION": "Durdurulmuş listeyi devam ettirir.",
+
+                "QUEUE_EMPTY": "liste boş, oynatılacak parça yok.",
+                "QUEUE_NOT_STOPPED": "liste tekrardan başlatılamadı, durdurulan bir liste yok!"
+            },
+            "LOOP": {
+                "NAME": "döngü",
+                "DESCRIPTION": "Çalan parçayı döngüye alır.",
+
+                "NO_QUEUE": "liste boş olduğu için döngüye alınamadı.",
+                "LOOPING_TOGGLE": "Tekrar etme özelliği: {TOGGLE}"
+            },
+            "STOP": {
+                "NAME": "durdur",
+                "DESCRIPTION": "Çalan parçayı anlık durdurur.",
+                
+                "NO_QUEUE": "Şu anda çalan bir parça bulunmuyor."
+            },
+            "SKIP": {
+                "NAME": "geç",
+                "DESCRIPTION": "Çalan parçayı geçer.",
+
+                "NO_QUEUE": "oynatılan bir parça yok."
+            },
+            "SKIPTO": {
+                "NAME": "geçç",
+                "DESCRIPTION": "Seçilen liste numarasına göre listedeki parçaları atlar.",
+                "USAGE": "{PREFIX}{NAME} <Liste Numarası>",
+
+                "NOT_AN_ITEM": "Verdiğiniz numara listede bulunamadı.",
+                "LIST_CHECK_TIP": "*(--liste komutu ile listeyi kontrol edebilirsiniz.)*",
+                "SKIPPED": "{NUMBER} tane parça geçildi. [{USER}]"
+            },
+            "SHUTDOWN": {
+                "NAME": "kapat",
+                "DESCRIPTION": "Çalan müziği/listeyi tamamen kapatır.",
+
+                "NO_QUEUE": "Şu anda hiçbir şey oynamıyor."
+            },
+            "CONNECT": {
+                "NAME": "katıl",
+                "DESCRIPTION": "Bot bulunduğunuz sesli kanala katılır.",
+
+                "YOU_ARE_NOT_CONNECTED": "bir sesli kanala bağlı olman gerekiyor."
+            },
+            "PLAYLIST": {
+                "NAME": "playlist",
+                "DESCRIPTION": "YouTube adresinden bir playlist oynatır.",
+
+                "SAME_CHANNEL": "bot ile aynı kanala bağlı olmalısın.",
+                "NO_ARGUMENTS": "botun listeye eklemesi için bir şey girmeniz gerekiyor.",
+                "YOUTUBE_URL_OR_PLAYLIST_NAME": "(YouTube URL veya playlist ismi.)",
+                "YOU_ARE_NOT_CONNECTED": "bir sesli kanala bağlı olmalısın.",
+                "INSUFFICIENT_PERMISSIONS_JOIN": "botun kanala bağlanması için gerekli yetkileri yok.",
+                "INSUFFICIENT_PERMISSIONS_SPEAK": "parçayı oynatmak için gerekli yetki yok.",
+                "NOT_FOUND": "Playlist bulunamadı",
+                "ADDED": "**{NUMBER}** tane parça oynatma sırasına eklendi."
+            },
+            "PURGE": {
+                "NAME": "listesil",
+                "DESCRIPTION": "Çalma sırasını temizler.",
+
+                "NO_QUEUE": "liste zaten boş.",
+                "SAME_CHANNEL": "bot ile aynı kanala bağlı olmalısın."
+            },
+            "PREFIX": {
+                "NAME": "prefix", 
+                "DESCRIPTION": "Prefix ayarlmanızı sağlar.",
+
+                "NOT_ADMIN": "Bu komut sadece **Yönetici** yetkisine sahip kişiler tarafından kullanılabilir.",
+                "NOT_CACHED": "Bu sunucunun **database** kaydı yok, **database** oluşturulacak. Eğer verilerinizin saklanmamasını istiyorsanız, bot yönetcisine ulaşın ve durumu belirtin.",
+                "ERROR_WHILE_CREATING_DATABASE": "Database kaydınız oluşturulurken bir hata oluştu.",
+                "DEFAULT_IS_SET": "Sunucuya özel ön-ek ayarlı değil. Mevcut ön-ek: **--**",
+                "FOUND_PREFIX": "Kayıtlarda sunucuya özel bir ön-ek bulundu. Bulunan ön-ek: **{PREFIX}**",
+                "ERROR_SETTING": "Prefix ayarlanırken bir hata oluştu.",
+                "DONE": "Prefix başarıyla **{PREFIX}** olarak ayarlandı.",
+                "LENGTH_ABOVE": "Girilen ön-ek 10'dan büyük olmamalıdır."
+            },
+
+            "SHUFFLE": {
+                "NAME": "karıştır",
+                "DESCRIPTION": "Listeyi karıştırır",
+
+                "NO_QUEUE": "liste boş olduğu için liste karıştırılamadı."
+            }
+        },
+        "OTHER": {
+            "ZENTOR": "gerizekâlı",
+            "COOLDOWN": "COOLDOWN!",
+            "ERROR": "HATA:",
+            "COOLDOWN_TEXT": "Bu komutu kullanmak için {SECONDS} saniye beklemen gerekiyor!",
+            "ERROR_WHILE_COMMAND": "Komut yürütülürken bir hata oluştu, lütfen bildirin: https://ritim.xyz/discord"
+        }
+    }
+}
