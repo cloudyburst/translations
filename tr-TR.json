@@ -12,7 +12,7 @@
 
                 "NO_ARGUMENTS": "Botun arama yapması için bir şey girmeniz gerekiyor.",
                 "RESULTS": "Sonuçlar:",
-                "SEARCH_QUERY": "Yapılan sorgu: {QUERY}"
+                "SEARCH_QUERY": "Yapılan Sorgu: {QUERY}"
             },
             "INFO": {
                 "NAME": "bilgi",
@@ -29,7 +29,7 @@
                 "DISCORD_SERVER": "Discord",
                 
                 "UNITED_STATES": "",
-                "UPTIME_STRING": "Bot, {HOURS} saat, {MINUTES} dakika, {SECONDS} saniyedir aktif."
+                "UPTIME_STRING": "{HOURS} saat, {MINUTES} dakika, {SECONDS} saniye"
             },
             "LEAVE": {
                 "NAME": "ayrıl",
@@ -107,14 +107,14 @@
                 "NAME": "prefix", 
                 "DESCRIPTION": "Prefix ayarlamanızı sağlar.",
 
-                "NOT_ADMIN": "Bu komut sadece **Yönetici** yetkisine sahip kişiler kullanılabilir.",
+                "NOT_ADMIN": "Bu komutu sadece **Yönetici** yetkisine sahip kişiler kullanabilir.",
                 "NOT_CACHED": "Bu sunucunun **database** kaydı yok, **database** oluşturulacak. Eğer verilerinizin saklanmamasını istiyorsanız, bot yönetcisine ulaşın ve durumu belirtin.",
                 "ERROR_WHILE_CREATING_DATABASE": "Database kaydınız oluşturulurken bir hata oluştu.",
                 "DEFAULT_IS_SET": "Sunucuya özel ön-ek ayarlı değil. Mevcut ön-ek: **--**",
                 "FOUND_PREFIX": "Kayıtlarda sunucuya özel bir ön-ek bulundu. Bulunan ön-ek: **{PREFIX}**",
-                "ERROR_SETTING": "Prefix ayarlanırken bir hata oluştu.",
-                "DONE": "Prefix başarıyla **{PREFIX}** olarak değiştirildi, artık herhangi bir komut kullanırken başına **{PREFIX}** koyacaksınız.",
-                "LENGTH_ABOVE": "Girilen ön-ek 10'dan büyük olmamalıdır."
+                "ERROR_SETTING": "Ön-ek ayarlanırken bir hata oluştu.",
+                "DONE": "Ön-ek başarıyla **{PREFIX}** olarak ayarlandı.",
+                "LENGTH_ABOVE": "Ön-ek en fazla 10 harf olmalıdır."
             },
 
             "SHUFFLE": {
