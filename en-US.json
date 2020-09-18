@@ -1,0 +1,136 @@
+{
+    "TRANSLATION": {
+        "CODE": "en-US",
+        "NAME": "English",
+        "AUTHOR": "Developers of Ritim"
+    },
+    "STRINGS": {
+        "COMMANDS": {
+            "SEARCH": {
+                "NAME": "search",
+                "DESCRIPTION": "Bot searches for typed song.",
+
+                "NO_ARGUMENTS": "You have to type something to make bot a search.",
+                "RESULTS": "Results:",
+                "SEARCH_QUERY": "Search: {QUERY}"
+            },
+            "INFO": {
+                "NAME": "info",
+                "DESCRIPTION": "Gives info about bot.",
+
+                "VERSION": "Version",
+                "LIBRARY": "Library",
+                "DEVELOPERS": "Developers",
+                "PING": "Ping",
+                "USERS": "Users",
+                "SERVERS": "Servers",
+                "WEBSITE": "Website",
+                "INVITE_LINK": "Invite",
+                "DISCORD_SERVER": "Discord",
+                
+                "UNITED_STATES": "",
+                "UPTIME_STRING": "Uptime {HOURS} Hours, {MINUTES} Minutes, {SECONDS} Seconds"
+            },
+            "LEAVE": {
+                "NAME": "leave",
+                "DESCRIPTION": "Bot leaves the channel.",
+
+                "LIST_HAS_SONGS": "There is songs in the queue, try --leave command.",
+            },
+            "RESUME": {
+                "NAME": "resume",
+                "DESCRIPTION": "Bot resumes the song.",
+
+                "QUEUE_EMPTY": "Queue is empty, there is no song to play.",
+                "QUEUE_NOT_STOPPED": "Queue was not able to resume beacuse queue was not paused."
+            },
+            "LOOP": {
+                "NAME": "loop",
+                "DESCRIPTION": "Bot loops the queue.",
+
+                "NO_QUEUE": "Bot was not able to loop because there was no queue to loop.",
+                "LOOPING_TOGGLE": "Loop Function: {TOGGLE}"
+            },
+            "STOP": {
+                "NAME": "stop",
+                "DESCRIPTION": "Bot stops the song",
+                
+                "NO_QUEUE": "There is no song playing to stop."
+            },
+            "SKIP": {
+                "NAME": "skip",
+                "DESCRIPTION": "Bot skips the song.",
+
+                "NO_QUEUE": "There is no song in the queue to skip."
+            },
+            "SKIPTO": {
+                "NAME": "skipto",
+                "DESCRIPTION": "Bot skips to song on given queue number.",
+                "USAGE": "{PREFIX}{NAME} <Queue Number>",
+
+                "NOT_AN_ITEM": "Bot didn't find the given queue number.",
+                "LIST_CHECK_TIP": "*(You can check the list with --queue.)*",
+                "SKIPPED": "{NUMBER} songs skipped. [{USER}]"
+            },
+            "SHUTDOWN": {
+                "NAME": "leave",
+                "DESCRIPTION": "Bot cleans the queue and leaves the channel.",
+
+                "NO_QUEUE": "There is no queue to clear."
+            },
+            "CONNECT": {
+                "NAME": "join",
+                "DESCRIPTION": "Bot joins the channel you're in.",
+
+                "YOU_ARE_NOT_CONNECTED": "You have to be connected to a voice channel."
+            },
+            "PLAYLIST": {
+                "NAME": "playlist",
+                "DESCRIPTION": "Bot adds typed playlist to queue.",
+
+                "SAME_CHANNEL": "You have to be in the same channel with the bot.",
+                "NO_ARGUMENTS": "You have to type playlist name/URL for bot to add playlist.",
+                "YOUTUBE_URL_OR_PLAYLIST_NAME": "(YouTube URL or playlist name.)",
+                "YOU_ARE_NOT_CONNECTED": "You have to be connected to a voice channel.",
+                "INSUFFICIENT_PERMISSIONS_JOIN": "Bot hasn't got permission to join.",
+                "INSUFFICIENT_PERMISSIONS_SPEAK": "Bot hasn't got permission to speak.",
+                "NOT_FOUND": "Playlist not found.",
+                "ADDED": "**{NUMBER}** songs added to queue."
+            },
+            "PURGE": {
+                "NAME": "clear",
+                "DESCRIPTION": "Bot cleans the list.",
+
+                "NO_QUEUE": "Queue is already clear.",
+                "SAME_CHANNEL": "You have to be in the same channel with the bot to clear queue."
+            },
+            "PREFIX": {
+                "NAME": "prefix", 
+                "DESCRIPTION": "Sets the prefix of bot.",
+
+                "NOT_ADMIN": "You have to be an **Administrator** to use this command.",
+                "NOT_CACHED": "This server hasn't got a database history, it'll be created. If you don't want your informations stored, contact with the bot manager.",
+                "ERROR_WHILE_CREATING_DATABASE": "There has been an error while creating your database.",
+                "DEFAULT_IS_SET": "There isn't any prefix set for this server. Default is: **--**",
+                "FOUND_PREFIX": "Bot has found prefix on your database records. Found prefix is: **{PREFIX}**",
+                "ERROR_SETTING": "There was an error while setting your prefix.",
+                "DONE": "Prefix set to: **{PREFIX}**",
+                "LENGTH_ABOVE": "Typed prefix is so long. (Max: 10 Characters)"
+            },
+
+            "SHUFFLE": {
+                "NAME": "shuffle",
+                "DESCRIPTION": "Shuffles the list.",
+
+                "NO_QUEUE": "List was not able to shuffle because list was empty."
+            }
+        },
+        "OTHER": {
+            "ZENTOR": "idiot",
+            "COOLDOWN": "COOLDOWN!",
+            "ERROR": "ERROR:",
+            "COOLDOWN_TEXT": "You have to wait {SECONDS} seconds to use this command!",
+            "ERROR_WHILE_COMMAND": "There was an error while running the command, please report: https://ritim.xyz/discord"
+        }
+    }
+}
