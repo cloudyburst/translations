@@ -29,7 +29,7 @@
                 "DISCORD_SERVER": "Discord",
                 
                 "UNITED_STATES": "",
-                "UPTIME_STRING": "{HOURS} Saat, {MINUTES} Dakika, {SECONDS} Saniye"
+                "UPTIME_STRING": "{HOURS} saat, {MINUTES} dakika, {SECONDS} saniye"
             },
             "LEAVE": {
                 "NAME": "ayrıl",
