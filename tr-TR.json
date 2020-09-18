@@ -12,7 +12,7 @@
 
                 "NO_ARGUMENTS": "Botun arama yapması için bir şey girmeniz gerekiyor.",
                 "RESULTS": "Sonuçlar:",
-                "SEARCH_QUERY": "Yapılan Sorgu: {QUERY}"
+                "SEARCH_QUERY": "Yapılan sorgu: {QUERY}"
             },
             "INFO": {
                 "NAME": "bilgi",
@@ -29,19 +29,18 @@
                 "DISCORD_SERVER": "Discord",
                 
                 "UNITED_STATES": "",
-                "UPTIME_STRING": "Uptime {HOURS} Saat, {MINUTES} Dakika, {SECONDS} Saniye"
+                "UPTIME_STRING": "Bot, {HOURS} saat, {MINUTES} dakika, {SECONDS} saniyedir aktif."
             },
             "LEAVE": {
                 "NAME": "ayrıl",
                 "DESCRIPTION": "Bot kanaldan ayrılır.",
-
                 "LIST_HAS_SONGS": "Listede parçalar var, --kapat komutunu deneyin.",
             },
             "RESUME": {
                 "NAME": "devam",
                 "DESCRIPTION": "Durdurulmuş listeyi devam ettirir.",
 
-                "QUEUE_EMPTY": "Liste boş, oynatılacak parça yok.",
+                "QUEUE_EMPTY": "Liste boş, oynatılacak başka parça yok.",
                 "QUEUE_NOT_STOPPED": "Liste tekrardan başlatılamadı, durdurulan bir liste yok!"
             },
             "LOOP": {
@@ -55,7 +54,7 @@
                 "NAME": "durdur",
                 "DESCRIPTION": "Çalan parçayı durdurur.",
                 
-                "NO_QUEUE": "Şu an çalan bir parça bulunmuyor."
+                "NO_QUEUE": "Şu anda çalan bir parça bulunmuyor."
             },
             "SKIP": {
                 "NAME": "geç",
@@ -86,14 +85,14 @@
             },
             "PLAYLIST": {
                 "NAME": "playlist",
-                "DESCRIPTION": "YouTube adresinden bir playlist oynatır.",
+                "DESCRIPTION": "YouTube üzerinden attığınız playlist'i oynatır.",
 
                 "SAME_CHANNEL": "Bot ile aynı kanala bağlı olmalısın.",
                 "NO_ARGUMENTS": "Botun listeye eklemesi için bir şey girmeniz gerekiyor.",
                 "YOUTUBE_URL_OR_PLAYLIST_NAME": "(YouTube URL veya playlist ismi.)",
                 "YOU_ARE_NOT_CONNECTED": "Bir sesli kanala bağlı olmalısın.",
                 "INSUFFICIENT_PERMISSIONS_JOIN": "Botun kanala bağlanması için gerekli yetkileri yok.",
-                "INSUFFICIENT_PERMISSIONS_SPEAK": "Parçayı oynatmak için gerekli yetki yok.",
+                "INSUFFICIENT_PERMISSIONS_SPEAK": "Botun sesli kanalda konuşma yetkisi yok.",
                 "NOT_FOUND": "Playlist bulunamadı.",
                 "ADDED": "**{NUMBER}** tane parça listeye eklendi."
             },
@@ -108,13 +107,13 @@
                 "NAME": "prefix", 
                 "DESCRIPTION": "Prefix ayarlamanızı sağlar.",
 
-                "NOT_ADMIN": "Bu komut sadece **Yönetici** yetkisine sahip kişiler tarafından kullanılabilir.",
+                "NOT_ADMIN": "Bu komut sadece **Yönetici** yetkisine sahip kişiler kullanılabilir.",
                 "NOT_CACHED": "Bu sunucunun **database** kaydı yok, **database** oluşturulacak. Eğer verilerinizin saklanmamasını istiyorsanız, bot yönetcisine ulaşın ve durumu belirtin.",
                 "ERROR_WHILE_CREATING_DATABASE": "Database kaydınız oluşturulurken bir hata oluştu.",
                 "DEFAULT_IS_SET": "Sunucuya özel ön-ek ayarlı değil. Mevcut ön-ek: **--**",
                 "FOUND_PREFIX": "Kayıtlarda sunucuya özel bir ön-ek bulundu. Bulunan ön-ek: **{PREFIX}**",
                 "ERROR_SETTING": "Prefix ayarlanırken bir hata oluştu.",
-                "DONE": "Prefix başarıyla **{PREFIX}** olarak ayarlandı.",
+                "DONE": "Prefix başarıyla **{PREFIX}** olarak değiştirildi, artık herhangi bir komut kullanırken başına **{PREFIX}** koyacaksınız.",
                 "LENGTH_ABOVE": "Girilen ön-ek 10'dan büyük olmamalıdır."
             },
 
