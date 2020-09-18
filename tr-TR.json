@@ -120,7 +120,7 @@
 
             "SHUFFLE": {
                 "NAME": "karıştır",
-                "DESCRIPTION": "Listeyi karıştırır",
+                "DESCRIPTION": "Listeyi karıştırır.",
 
                 "NO_QUEUE": "Liste boş olduğu için liste karıştırılamadı."
             }
