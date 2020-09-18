@@ -8,9 +8,9 @@
         "COMMANDS": {
             "SEARCH": {
                 "NAME": "ara",
-                "DESCRIPTION": "parça aratıyoz",
+                "DESCRIPTION": "Şarkı aratır.",
 
-                "NO_ARGUMENTS": "botun arama yapması için bir kelime / kelime dizisi girmeniz gerekiyor.",
+                "NO_ARGUMENTS": "Botun arama yapması için bir şey girmeniz gerekiyor.",
                 "RESULTS": "Sonuçlar:",
                 "SEARCH_QUERY": "Yapılan Sorgu: {QUERY}"
             },
@@ -29,43 +29,43 @@
                 "DISCORD_SERVER": "Discord",
                 
                 "UNITED_STATES": "",
-                "UPTIME_STRING": "Uptime {HOURS} sa, {MINUTES} dk, {SECONDS} sn"
+                "UPTIME_STRING": "Uptime {HOURS} Saat, {MINUTES} Dakika, {SECONDS} Saniye"
             },
             "LEAVE": {
                 "NAME": "ayrıl",
                 "DESCRIPTION": "Bot kanaldan ayrılır.",
 
-                "LIST_HAS_SONGS": "listede parçalar var, --kapat komutunu deneyin.",
+                "LIST_HAS_SONGS": "Listede parçalar var, --kapat komutunu deneyin.",
             },
             "RESUME": {
                 "NAME": "devam",
                 "DESCRIPTION": "Durdurulmuş listeyi devam ettirir.",
 
-                "QUEUE_EMPTY": "liste boş, oynatılacak parça yok.",
-                "QUEUE_NOT_STOPPED": "liste tekrardan başlatılamadı, durdurulan bir liste yok!"
+                "QUEUE_EMPTY": "Liste boş, oynatılacak parça yok.",
+                "QUEUE_NOT_STOPPED": "Liste tekrardan başlatılamadı, durdurulan bir liste yok!"
             },
             "LOOP": {
                 "NAME": "döngü",
-                "DESCRIPTION": "Çalan parçayı döngüye alır.",
+                "DESCRIPTION": "Aktif listeyi döngüye alır.",
 
-                "NO_QUEUE": "liste boş olduğu için döngüye alınamadı.",
+                "NO_QUEUE": "Liste boş olduğu için döngüye alınamadı.",
                 "LOOPING_TOGGLE": "Tekrar etme özelliği: {TOGGLE}"
             },
             "STOP": {
                 "NAME": "durdur",
-                "DESCRIPTION": "Çalan parçayı anlık durdurur.",
+                "DESCRIPTION": "Çalan parçayı durdurur.",
                 
-                "NO_QUEUE": "Şu anda çalan bir parça bulunmuyor."
+                "NO_QUEUE": "Şu an çalan bir parça bulunmuyor."
             },
             "SKIP": {
                 "NAME": "geç",
                 "DESCRIPTION": "Çalan parçayı geçer.",
 
-                "NO_QUEUE": "oynatılan bir parça yok."
+                "NO_QUEUE": "Oynatılan bir parça yok."
             },
             "SKIPTO": {
                 "NAME": "geçç",
-                "DESCRIPTION": "Seçilen liste numarasına göre listedeki parçaları atlar.",
+                "DESCRIPTION": "Seçilen liste numarasıda bulunan şarkıyı oynatır.",
                 "USAGE": "{PREFIX}{NAME} <Liste Numarası>",
 
                 "NOT_AN_ITEM": "Verdiğiniz numara listede bulunamadı.",
@@ -74,7 +74,7 @@
             },
             "SHUTDOWN": {
                 "NAME": "kapat",
-                "DESCRIPTION": "Çalan müziği/listeyi tamamen kapatır.",
+                "DESCRIPTION": "Listeyi temizler ve bot kanaldan ayrılır.",
 
                 "NO_QUEUE": "Şu anda hiçbir şey oynamıyor."
             },
@@ -82,31 +82,31 @@
                 "NAME": "katıl",
                 "DESCRIPTION": "Bot bulunduğunuz sesli kanala katılır.",
 
-                "YOU_ARE_NOT_CONNECTED": "bir sesli kanala bağlı olman gerekiyor."
+                "YOU_ARE_NOT_CONNECTED": "Bir sesli kanala bağlı olman gerekiyor."
             },
             "PLAYLIST": {
                 "NAME": "playlist",
                 "DESCRIPTION": "YouTube adresinden bir playlist oynatır.",
 
-                "SAME_CHANNEL": "bot ile aynı kanala bağlı olmalısın.",
-                "NO_ARGUMENTS": "botun listeye eklemesi için bir şey girmeniz gerekiyor.",
+                "SAME_CHANNEL": "Bot ile aynı kanala bağlı olmalısın.",
+                "NO_ARGUMENTS": "Botun listeye eklemesi için bir şey girmeniz gerekiyor.",
                 "YOUTUBE_URL_OR_PLAYLIST_NAME": "(YouTube URL veya playlist ismi.)",
-                "YOU_ARE_NOT_CONNECTED": "bir sesli kanala bağlı olmalısın.",
-                "INSUFFICIENT_PERMISSIONS_JOIN": "botun kanala bağlanması için gerekli yetkileri yok.",
-                "INSUFFICIENT_PERMISSIONS_SPEAK": "parçayı oynatmak için gerekli yetki yok.",
-                "NOT_FOUND": "Playlist bulunamadı",
-                "ADDED": "**{NUMBER}** tane parça oynatma sırasına eklendi."
+                "YOU_ARE_NOT_CONNECTED": "Bir sesli kanala bağlı olmalısın.",
+                "INSUFFICIENT_PERMISSIONS_JOIN": "Botun kanala bağlanması için gerekli yetkileri yok.",
+                "INSUFFICIENT_PERMISSIONS_SPEAK": "Parçayı oynatmak için gerekli yetki yok.",
+                "NOT_FOUND": "Playlist bulunamadı.",
+                "ADDED": "**{NUMBER}** tane parça listeye eklendi."
             },
             "PURGE": {
                 "NAME": "listesil",
-                "DESCRIPTION": "Çalma sırasını temizler.",
+                "DESCRIPTION": "Listeyi temizler.",
 
-                "NO_QUEUE": "liste zaten boş.",
-                "SAME_CHANNEL": "bot ile aynı kanala bağlı olmalısın."
+                "NO_QUEUE": "Liste zaten boş.",
+                "SAME_CHANNEL": "Bot ile aynı kanala bağlı olmalısın."
             },
             "PREFIX": {
                 "NAME": "prefix", 
-                "DESCRIPTION": "Prefix ayarlmanızı sağlar.",
+                "DESCRIPTION": "Prefix ayarlamanızı sağlar.",
 
                 "NOT_ADMIN": "Bu komut sadece **Yönetici** yetkisine sahip kişiler tarafından kullanılabilir.",
                 "NOT_CACHED": "Bu sunucunun **database** kaydı yok, **database** oluşturulacak. Eğer verilerinizin saklanmamasını istiyorsanız, bot yönetcisine ulaşın ve durumu belirtin.",
@@ -120,9 +120,9 @@
 
             "SHUFFLE": {
                 "NAME": "karıştır",
-                "DESCRIPTION": "Listeyi karıştırır",
+                "DESCRIPTION": "Listeyi karıştırır.",
 
-                "NO_QUEUE": "liste boş olduğu için liste karıştırılamadı."
+                "NO_QUEUE": "Liste boş olduğu için liste karıştırılamadı."
             }
         },
         "OTHER": {
